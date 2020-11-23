@@ -1,17 +1,10 @@
-import {
-  DynamicModule,
-  Global,
-  LoggerService,
-  Module,
-  Provider,
-} from '@nestjs/common';
+import { DynamicModule, Global, Module, Provider } from '@nestjs/common';
 import { WeakConfig } from 'weakjs';
 import {
   WEAK_MODULE_NEST_PROVIDER,
   WEAK_MODULE_OPTIONS,
 } from './weak.constants';
 import { WeakAsyncOptions, WeakOptionsFactory } from './weak.interfaces';
-
 import { WeakLoggerService } from './weak.service';
 
 @Module({
