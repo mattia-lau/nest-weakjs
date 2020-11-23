@@ -1,9 +1,8 @@
 {
   "name": "nest-weakjs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "nest module of weakjs",
   "author": "mattia.lau",
-  "private": true,
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "license": "UNLICENSED",
@@ -14,7 +13,7 @@
   "dependencies": {
     "@nestjs/common": "^7.0.0",
     "rxjs": "^6.6.3",
-    "weakjs": "^1.0.1"
+    "weakjs": "^1.0.2"
   },
   "devDependencies": {
     "@types/node": "^13.9.1",
