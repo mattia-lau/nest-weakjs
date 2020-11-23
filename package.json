@@ -5,7 +5,7 @@
   "author": "mattia.lau",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "license": "UNLICENSED",
+  "license": "ISC",
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "tsc"
@@ -15,23 +15,22 @@
     "rxjs": "^6.6.3",
     "weakjs": "^1.0.4"
   },
+  "keywords": [
+    "nestjs",
+    "nest",
+    "logger",
+    "daily logger",
+    "logging",
+    "rotating",
+    "rotation log"
+  ],
   "devDependencies": {
     "@types/node": "^13.9.1",
     "prettier": "^1.19.1",
     "typescript": "^3.7.4"
   },
-  "jest": {
-    "moduleFileExtensions": [
-      "js",
-      "json",
-      "ts"
-    ],
-    "rootDir": "src",
-    "testRegex": ".spec.ts$",
-    "transform": {
-      "^.+\\.(t|j)s$": "ts-jest"
-    },
-    "coverageDirectory": "../coverage",
-    "testEnvironment": "node"
-  }
+  "bugs": {
+    "url": "https://github.com/mattia-lau/nest-weakjs/issues"
+  },
+  "homepage": "https://github.com/mattia-lau/nest-weakjs#readme"
 }
