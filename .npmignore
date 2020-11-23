@@ -1,0 +1,7 @@
+/src
+/node_modules
+/logs
+/.eslintrc.js
+/.gitignore
+/.prettierrc
+/tsconfig.json
