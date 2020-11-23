@@ -1,6 +1,6 @@
 {
   "name": "nest-weakjs",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "nest module of weakjs",
   "author": "mattia.lau",
   "main": "dist/index.js",
@@ -8,7 +8,7 @@
   "license": "UNLICENSED",
   "scripts": {
     "prebuild": "rimraf dist",
-    "build": "yarn prebuild && tsc"
+    "build": "tsc"
   },
   "dependencies": {
     "@nestjs/common": "^7.0.0",
