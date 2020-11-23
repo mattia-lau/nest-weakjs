@@ -1,6 +1,6 @@
 {
   "name": "nest-weakjs",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "nest module of weakjs",
   "author": "mattia.lau",
   "main": "dist/index.js",
