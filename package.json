@@ -1,0 +1,38 @@
+{
+  "name": "nest-weakjs",
+  "version": "0.0.1",
+  "description": "nest module of weakjs",
+  "author": "mattia.lau",
+  "private": true,
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "UNLICENSED",
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "nest build"
+  },
+  "dependencies": {
+    "@nestjs/common": "^7.0.0",
+    "rxjs": "^6.6.3",
+    "weakjs": "^1.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^13.9.1",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.4"
+  },
+  "jest": {
+    "moduleFileExtensions": [
+      "js",
+      "json",
+      "ts"
+    ],
+    "rootDir": "src",
+    "testRegex": ".spec.ts$",
+    "transform": {
+      "^.+\\.(t|j)s$": "ts-jest"
+    },
+    "coverageDirectory": "../coverage",
+    "testEnvironment": "node"
+  }
+}
