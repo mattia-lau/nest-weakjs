@@ -9,7 +9,7 @@ export class WeakLoggerService implements LoggerService {
 
   public constructor(
     @Inject(WEAK_MODULE_OPTIONS)
-    options: WeakConfig,
+    options?: WeakConfig,
   ) {
     this.logger = new Logger(options);
   }
