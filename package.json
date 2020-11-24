@@ -1,6 +1,6 @@
 {
   "name": "nest-weakjs",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "nest module of weakjs",
   "author": "mattia.lau",
   "main": "dist/index.js",
@@ -12,8 +12,7 @@
   },
   "dependencies": {
     "@nestjs/common": "^7.0.0",
-    "rxjs": "^6.6.3",
-    "weakjs": "^1.0.8"
+    "rxjs": "^6.6.3"
   },
   "keywords": [
     "nestjs",
@@ -32,5 +31,8 @@
   "bugs": {
     "url": "https://github.com/mattia-lau/nest-weakjs/issues"
   },
-  "homepage": "https://github.com/mattia-lau/nest-weakjs#readme"
+  "homepage": "https://github.com/mattia-lau/nest-weakjs#readme",
+  "peerDependencies": {
+    "weakjs": "^1.0.9"
+  }
 }
