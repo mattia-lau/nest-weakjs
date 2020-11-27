@@ -1,6 +1,6 @@
 {
   "name": "nest-weakjs",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "nest module of weakjs",
   "author": "mattia.lau",
   "main": "dist/index.js",
@@ -33,6 +33,6 @@
   },
   "homepage": "https://github.com/mattia-lau/nest-weakjs#readme",
   "peerDependencies": {
-    "weakjs": "^1.0.9"
+    "weakjs": "^1.0.10"
   }
 }
