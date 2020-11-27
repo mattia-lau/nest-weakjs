@@ -1,3 +1,9 @@
+# Install
+```bash
+yarn add weakjs
+yarn add nest-weakjs
+```
+
 ```typescript
 // app.module.ts
 import { Module } from '@nestjs/common';
